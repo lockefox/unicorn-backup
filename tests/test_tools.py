@@ -10,6 +10,7 @@ import pathlib
 
 from unicorn_backup import tools
 
+
 def test_list_dirs(tmp_path):
     files = ["test.txt", "not_dir"]
     folders = ["a", "b", "yes_dir"]
